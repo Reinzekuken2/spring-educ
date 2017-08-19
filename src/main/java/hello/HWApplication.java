@@ -1,5 +1,6 @@
 package hello;
 
+import org.springframework.boot.Banner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,6 +17,9 @@ import java.util.Arrays;
 public class HWApplication {
 
     public static void main(String[] args) {
+//        SpringApplication springApplication = new SpringApplication();
+//        springApplication.setBannerMode(Banner.Mode.OFF);
+//        springApplication.run(HWApplication.class, args);
         SpringApplication.run(HWApplication.class, args);
     }
 
